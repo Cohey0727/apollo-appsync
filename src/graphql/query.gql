@@ -1,0 +1,11 @@
+query ListEvents {
+  listEvents {
+    items {
+      id
+      name
+      description
+      when
+      where
+    }
+  }
+}
