@@ -1,11 +1,6 @@
-query ListEvents {
-  listEvents {
-    items {
-      id
-      name
-      description
-      when
-      where
-    }
+query GetTodo {
+  getTodo(id: "") {
+    id
+    name
   }
 }
